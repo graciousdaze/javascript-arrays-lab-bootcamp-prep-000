@@ -16,7 +16,14 @@ function destructivelyRemoveFirstKitten (name) {
   kittens.shift()
 }
 
+function appendKitten (name) {
+  
+}
 
 function prependKitten(name) {
   return ["Arnold",...kittens];
+}
+
+function removeLastKitten(name) {
+  kittens.slice(0, kittens.length - 1)
 }
