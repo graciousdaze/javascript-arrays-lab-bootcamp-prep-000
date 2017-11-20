@@ -17,7 +17,7 @@ function destructivelyRemoveFirstKitten (name) {
 }
 
 function appendKitten (name) {
-  
+
 }
 
 function prependKitten(name) {
